@@ -18,3 +18,6 @@ allow system_server pocket_judge_sysfs:file rw_file_perms;
 
 # AppLock
 add_service(system_server, app_lock_service)
+
+# Set tethering properties
+set_prop(system_server, device_config_tethering_prop)
