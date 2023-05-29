@@ -21,3 +21,6 @@ add_service(system_server, app_lock_service)
 
 # Set tethering properties
 set_prop(system_server, device_config_tethering_prop)
+
+# Linearmotor Vibrator
+add_service(system_server, linearmotor_vibrator_service);
